@@ -1,0 +1,23 @@
+main .heading_1 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-left: 400px;
+}
+main .heading_1 h1 {
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+main .heading_1 h1 span {
+  color: #00ABE4;
+}
+main p {
+  margin-left: 400px;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+main p button {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=home.css.map */
