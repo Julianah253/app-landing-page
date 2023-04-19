@@ -1,9 +1,10 @@
 import React from 'react'
 import "./navbar.css"
+import './nav.js'
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar">
+      <div id="navbar">
         <div class="nav-logo">
           <img src="./images/logo.png"/>
         </div>
@@ -17,6 +18,8 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+
+      <script src='nav.js'></script>
     </div>
   )
 }
