@@ -1,0 +1,48 @@
+footer {
+  background-color: #00b7ff;
+  height: 400px;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+footer h2 {
+  margin-bottom: -260px;
+  font-size: 40px;
+  font-weight: 500;
+  color: #ffffff;
+}
+footer input {
+  font-family: "Roboto";
+}
+footer .mailme form {
+  width: 380px;
+  max-width: 100%;
+  position: relative;
+}
+footer .mailme form input:first-child {
+  display: inline-block;
+  height: 19px;
+  width: 62%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid #00b7ff;
+  outline: none;
+  border-radius: 30px;
+}
+footer .mailme form input:last-child {
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: #00b7ff;
+  color: white;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px rgba(136, 85, 136, 0.3333333333);
+  top: 6px;
+  right: 6px;
+  cursor: pointer;
+}
+footer .mailme form input:last-child:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=footer.css.map */

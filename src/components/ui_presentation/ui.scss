@@ -1,0 +1,26 @@
+.ui
+{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    line-height: 2px;
+    h2 
+    {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    p
+    {
+        letter-spacing: 0.5px;        font-size: 20px;
+        text-align: center;
+    }
+
+    img 
+    {
+        margin-top: -195px;
+        width: 1700px;
+        height: 1000px;
+    }
+}

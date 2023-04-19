@@ -1,23 +1,35 @@
-main .heading_1 {
+.bg .heading_1 {
   display: flex;
   align-items: center;
   justify-content: start;
   margin-left: 400px;
 }
-main .heading_1 h1 {
+.bg .heading_1 h1 {
   font-size: 3.5rem;
   letter-spacing: 2px;
   font-weight: 500;
 }
-main .heading_1 h1 span {
-  color: #00ABE4;
+.bg .heading_1 h1 span {
+  color: #00b7ff;
 }
-main p {
+.bg p {
   margin-left: 400px;
   font-size: 1.5rem;
   letter-spacing: 2px;
   font-weight: 400;
 }
-main p button {
+.bg p button {
   font-size: 1.5rem;
+  color: #ffffff;
+  border: none;
+  background-color: #00b7ff;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+}
+.bg p button:hover {
+  background-color: #00b7ff;
+  color: #ffffff;
+  box-shadow: 5px 10px 30px #000;
+  transition: all ease 0.2s;
 }/*# sourceMappingURL=home.css.map */

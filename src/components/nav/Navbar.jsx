@@ -9,7 +9,7 @@ const Navbar = () => {
         </div>
         <div class="nav-list">
           <ul>
-            <li> HOME </li>
+            <li className="active"> HOME </li>
             <li> FEATURES </li>
             <li> ABOUT </li>
             <li> UI SS </li>

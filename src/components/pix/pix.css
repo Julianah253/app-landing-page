@@ -1,0 +1,23 @@
+.images {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+}
+.images .img1 img {
+  width: 300px;
+  height: 300px;
+}
+.images .img1 h3 {
+  text-align: center;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+  font-size: 25px;
+}
+.images .img1 p {
+  text-align: center;
+  word-spacing: 2px;
+  font-size: 20px;
+  font-weight: 400;
+}/*# sourceMappingURL=pix.css.map */

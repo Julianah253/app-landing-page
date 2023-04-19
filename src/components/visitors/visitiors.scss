@@ -1,0 +1,52 @@
+.image_and_text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    .img 
+    {
+        img 
+        {
+            width: 1000px; 
+        }
+    }
+
+    .download_text
+    {
+        h2 
+       {
+         font-size: 3rem;
+         font-weight: 400;
+         line-height: 4rem;
+         color: #00b7ff;
+         word-spacing: 2px;
+       }
+
+         p 
+        {
+            font-size: 20px;
+            word-spacing: 1px;
+            // letter-spacing: 0.5px;
+            font-weight: 400;
+
+            button 
+            {
+            font-size: 1.3rem;
+            color: #ffffff;
+            border: none;
+            background-color: #00b7ff;
+            border-radius: 10px;
+            height: 50px;
+            width: 200px;
+            &:hover
+            {
+                background-color: #00b7ff;
+                color: #ffffff;
+                box-shadow: 5px 10px 30px #000;
+                transition: all ease 0.2s;
+            }
+            }
+    }
+}
+}
